@@ -4,7 +4,8 @@ export default function Start({ handleStart }) {
     return (
         <div className="start-screen">
             <h1>Quizzical</h1>
-            <p>Some description if needed</p>
+            <p>Test your knowledge with our curated questions!</p>
+            <p>Ready to challenge yourself?</p>
             <button className="start-button" onClick={handleStart}>Start quiz</button>
         </div>
     )
